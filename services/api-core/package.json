@@ -1,0 +1,21 @@
+{
+  "name": "@stephen-shopopop/api-core",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "artillery run ./scenarios/sample.yaml -o ./reports/sample_report.json",
+    "report": "artillery report ./reports/sample_report.json",
+    "clean": "rm -f reports/*.json && rm -f reports/*.json.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephen-shopopop/artillery.git"
+  },
+  "keywords": [],
+  "author": "tech-shopopop <tech@shopopop.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephen-shopopop/artillery/issues"
+  },
+  "homepage": "https://github.com/stephen-shopopop/artillery#readme"
+}

@@ -1,0 +1,13 @@
+{
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.sortMembers": true,
+    "source.sortImports": true
+  },
+  "standard.enable": true,
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript"
+  ],
+  "standard.engine": "standard"
+}

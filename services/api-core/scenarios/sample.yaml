@@ -1,0 +1,13 @@
+config:
+  target: https://artillery.io
+  plugins:
+    metrics-by-endpoint: {}
+scenarios:
+  - flow:
+      - get:
+          url: "/"
+      - get:
+          url: "/docs"
+      - get:
+          url: "/404"
+          

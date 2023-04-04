@@ -1,0 +1,42 @@
+{
+  "name": "artillery",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=18.13.0",
+    "npm": ">=8.19.3"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artillery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artillery/issues"
+  },
+  "contributors": [
+    "stephen.deletang@shopopop.com"
+  ],
+  "scripts": {
+    "start": "npm run start -ws",
+    "report": "npm run report -ws",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix",
+    "clean": "npm run clean -ws"
+  },
+  "keywords": [],
+  "author": "tech-shopopop <tech@shopopop.com>",
+  "license": "ISC",
+  "workspaces": [
+    "./services/*"
+  ],
+  "devDependencies": {
+    "artillery": "^2.0.0-31",
+    "artillery-plugin-expect": "^2.2.1",
+    "snazzy": "^9.0.0",
+    "standard": "^17.0.0"
+  }
+}
