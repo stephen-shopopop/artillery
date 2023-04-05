@@ -1,7 +1,9 @@
 # Artifact files
 dist/
-reports/*.json
-reports/*.html
+
+# reports
+**/reports/*.json
+**/reports/*.json.html
 
 .turbo
 
