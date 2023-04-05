@@ -1,0 +1,105 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 1,
+      "vusers.created": 1,
+      "http.requests": 11,
+      "http.codes.301": 1,
+      "http.responses": 11,
+      "http.codes.307": 10,
+      "errors.ERR_TOO_MANY_REDIRECTS": 1,
+      "vusers.failed": 1
+    },
+    "rates": {
+      "http.request_rate": 11
+    },
+    "firstCounterAt": 1680722440949,
+    "firstHistogramAt": 1680722441069,
+    "lastCounterAt": 1680722441355,
+    "lastHistogramAt": 1680722441352,
+    "firstMetricAt": 1680722440949,
+    "lastMetricAt": 1680722441355,
+    "period": 1680722440000,
+    "summaries": {
+      "http.response_time": {
+        "min": 19,
+        "max": 34,
+        "count": 11,
+        "p50": 19.9,
+        "median": 19.9,
+        "p75": 21.1,
+        "p90": 23.8,
+        "p95": 23.8,
+        "p99": 23.8,
+        "p999": 23.8
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 19,
+        "max": 34,
+        "count": 11,
+        "p50": 19.9,
+        "median": 19.9,
+        "p75": 21.1,
+        "p90": 23.8,
+        "p95": 23.8,
+        "p99": 23.8,
+        "p999": 23.8
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 1,
+        "vusers.created": 1,
+        "http.requests": 11,
+        "http.codes.301": 1,
+        "http.responses": 11,
+        "http.codes.307": 10,
+        "errors.ERR_TOO_MANY_REDIRECTS": 1,
+        "vusers.failed": 1
+      },
+      "rates": {
+        "http.request_rate": 11
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1680722440949,
+      "firstHistogramAt": 1680722441069,
+      "lastCounterAt": 1680722441355,
+      "lastHistogramAt": 1680722441352,
+      "firstMetricAt": 1680722440949,
+      "lastMetricAt": 1680722441355,
+      "period": "1680722440000",
+      "summaries": {
+        "http.response_time": {
+          "min": 19,
+          "max": 34,
+          "count": 11,
+          "p50": 19.9,
+          "median": 19.9,
+          "p75": 21.1,
+          "p90": 23.8,
+          "p95": 23.8,
+          "p99": 23.8,
+          "p999": 23.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 19,
+          "max": 34,
+          "count": 11,
+          "p50": 19.9,
+          "median": 19.9,
+          "p75": 21.1,
+          "p90": 23.8,
+          "p95": 23.8,
+          "p99": 23.8,
+          "p999": 23.8
+        }
+      }
+    }
+  ]
+}
