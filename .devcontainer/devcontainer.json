@@ -28,10 +28,9 @@
 				"standard.enable": true,
 				"standard.autoFixOnSave": true,
 				"standard.validate": [
-					"javascript",
-					"typescript"
+					"javascript"
 				],
-				"standard.engine": "ts-standard"
+				"standard.engine": "standard"
 			}
 		}
 	},

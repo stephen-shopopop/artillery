@@ -1,6 +1,5 @@
 # Artifact files
 dist/
-reports/
 
 # Log files
 *.log

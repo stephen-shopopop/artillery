@@ -23,6 +23,7 @@
   "scripts": {
     "start": "npm run start -ws",
     "report": "npm run report -ws",
+    "version": "artillery --version",
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix",
     "clean": "npm run clean -ws"
