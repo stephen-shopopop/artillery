@@ -1,5 +1,7 @@
 # Artifact files
 dist/
+reports/*.json
+reports/*.html
 
 .turbo
 
