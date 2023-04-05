@@ -23,11 +23,14 @@ Artillery, tests SRE & DevOps
 ## Production
 
 ```bash
-// Use node verision
+// Use node version
 nvm use
 
 // Start all scenarios
 npm run start
+
+// Start all scenario parallel
+npm test
 
 // Clean all reports
 npm run clean
