@@ -21,10 +21,10 @@
     "stephen.deletang@shopopop.com"
   ],
   "scripts": {
-    "test": "turbo run start --parallel",
-    "test:api-core": "turbo run start --filter api-core",
-    "start": "npm run start -ws",
-    "report": "npm run report -ws",
+    "test": "turbo test --parallel",
+    "test:api-core": "turbo test --filter api-core",
+    "start": "turbo start",
+    "report": "turbo report",
     "version": "artillery --version",
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix",
@@ -39,6 +39,7 @@
   "devDependencies": {
     "artillery": "^2.0.0-31",
     "artillery-plugin-expect": "^2.2.1",
+    "fs-extra": "^11.1.1",
     "snazzy": "^9.0.0",
     "standard": "^17.0.0",
     "turbo": "^1.8.8"

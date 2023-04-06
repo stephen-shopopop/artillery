@@ -26,10 +26,10 @@ Artillery, tests SRE & DevOps
 // Use node version
 nvm use
 
-// Start all scenarios
+// Start all scenarios parallel
 npm run start
 
-// Start all scenario parallel
+// Start all scenario with report parallel
 npm test
 
 // Clean all reports

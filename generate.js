@@ -75,16 +75,18 @@ Template artillery
 
 ## Contributing
 
-1. npm run start -  Start artillery test
-2. npm run report - Generate report html
-3. npm run clean - Clean reports
+1. npm start -  Start artillery test
+2. npm test - Start artillery test wih report
+3. npm run report - Generate report html
+4. npm run clean - Clean reports
 `)
 
   // Generate package.json
   const pkg = require(`./services/${packageName}/package.json`)
   pkg.main = ''
   pkg.scripts = {
-    start: 'artillery run ./scenarios/sample.yaml -o ./reports/sample_report.json',
+    start: 'artillery run ./scenarios/sample.yaml',
+    test: 'artillery run ./scenarios/sample.yaml -o ./reports/sample_report.json',
     report: 'artillery report ./reports/sample_report.json',
     clean: 'rm -f reports/*.json && rm -f reports/*.json.html'
   }

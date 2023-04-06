@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "start": "artillery run ./scenarios/sample.yaml -o ./reports/sample_report.json",
+    "start": "artillery run ./scenarios/sample.yaml",
+    "test": "artillery run ./scenarios/sample.yaml -o ./reports/sample_report.json",
     "report": "artillery report ./reports/sample_report.json",
     "clean": "rm -f reports/*.json && rm -f reports/*.json.html"
   },
